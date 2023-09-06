@@ -24,7 +24,7 @@ const navbarBackground=isTopOfPage?"":'bg-red'
     return (
    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
 <div className='flex items-center justify-between mx-auto w-5/6 '>
-<img className='w-14 rounded-xl' src="https://tse1.mm.bing.net/th?id=OIP.nRsm87tpRbWG5YknSf1LPwHaEa&pid=Api&rs=1&c=1&qlt=95&h=180" alt="" srcset="" />
+<img className='w-14 rounded-xl' src="https://tse1.mm.bing.net/th?id=OIP.nRsm87tpRbWG5YknSf1LPwHaEa&pid=Api&rs=1&c=1&qlt=95&h=180" alt=""/>
 {
     isAboveSmallScreens?(
 <div className='flex justify-between gap-16 font-opensans text-sm font-semibold '>

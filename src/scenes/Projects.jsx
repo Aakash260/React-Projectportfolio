@@ -68,7 +68,7 @@ Live:'https://javascript-mu-seven.vercel.app/'
                 {portfolios.map(({id,src,Video,Code,Live})=>(
 
                     <div key={id} className=' shadow-md shadow-gray-500 rounded-lg '>
-                            <img src={src} alt="" srcset="" className='rounded-md duration-200 hover:scale-105 h-40' />
+                            <img src={src} alt="project-img" className='rounded-md duration-200 hover:scale-105 h-40' />
                             <div className=' flex items-center justify-center gap-2'>
                                 <button className=' py-3 border-r-2 pr-1 duration-200 hover:scale-105 text-xl font-bold'><a href={Live} target='_blank'>Live</a></button>
                                 <button className=' py-3 border-r-2 pr-1 duration-200 hover:scale-105 text-xl font-bold'><a href={Code} target='_blank'>Code</a></button>

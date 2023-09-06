@@ -120,7 +120,7 @@ className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mt-20 '
             {techs.map(({id,src,title,style})=>(
 
 <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-    <img src={src} alt="" srcset="" className='w-20 mx-auto' />
+    <img src={src} alt="" srcSet="" className='w-20 mx-auto' />
    <p className='mt-4'>{title}</p>
     </div>
 ))}
