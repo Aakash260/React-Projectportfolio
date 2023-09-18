@@ -6,7 +6,7 @@ import LineGradient from '../components/LineGradient'
  import Swiggy from '../assets/portfolio/swiggy.png'
  import Blog from '../assets/portfolio/portfolio.png'
  import Showcase from '../assets/portfolio/showcase.png'
- 
+ import ChatUp from '../assets/portfolio/ChatUp.png'
 const Projects = () => {
   const portfolios =[
     {
@@ -43,6 +43,13 @@ src:Showcase,
 Video:"https://www.linkedin.com/feed/update/urn:li:activity:7086944846875099136/?originTrackingId=88xMr%2BN8Q6OsJYZq0ry8yQ%3D%3D",
 Code:'https://github.com/Aakash260/javascript',
 Live:'https://javascript-mu-seven.vercel.app/'
+},
+    {
+id:6,
+src:ChatUp,
+Video: "",
+Code:'https://github.com/Aakash260/chatapp-basic',
+Live:'https://chatdown.netlify.app/'
 },
  
 ]
