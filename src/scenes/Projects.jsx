@@ -79,7 +79,7 @@ Live:'https://chatdown.netlify.app/'
                             <div className=' flex items-center justify-center gap-2'>
                                 <button className=' py-3 border-r-2 pr-1 duration-200 hover:scale-105 text-xl font-bold'><a href={Live} target='_blank'>Live</a></button>
                                 <button className=' py-3 border-r-2 pr-1 duration-200 hover:scale-105 text-xl font-bold'><a href={Code} target='_blank'>Code</a></button>
-                                <button className=' py-3  duration-200 hover:scale-105 text-sm font-bold text-gray-500/[0.5] '><a href={Video} target='_blank'>Presentation-Video</a></button>
+                                <button className=' py-3  duration-200 hover:scale-105 text-sm font-bold text-gray-500/[0.5] '><a href={Video} target='_blank'>{Video?"Presentation-Video":"Not-Available"}</a></button>
                             </div>
                         </div>
                     ))}  
